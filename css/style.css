@@ -571,7 +571,12 @@ ul.conta_top li a {
 
 
 /** end banner section **/
-
+.round-image {
+     width: 100%;  /* Adjust as needed */
+     height: 100%; /* Ensure it's a square */
+     border-radius: 50%;
+     object-fit: cover; /* Ensures the image fills the circular area */
+}
 
 /** about section **/
 
@@ -719,8 +724,34 @@ ul.conta_top li a {
      color: #fafbfc;
      opacity: 1;
 }
-
-
+/* Full-screen container */
+.container3 {
+     background-color: rgba(194, 176, 143, 0.7);
+     max-width: 1000px;
+     display: flex; /* Use flexbox */
+     flex-direction: row; /* Arrange items in a row */
+     justify-content: space-between; /* Space between text and image */
+     align-items: center; /* Align items vertically */
+     text-align: left; /* Align text to the left */
+     padding: 20px;
+     border-radius: 10px; /* Rounded corners */
+     margin: auto; /* Center the container */
+ }
+ 
+ /* Styling the text */
+ .text {
+     font-size: 20px;
+     color: #ffffff; /* Adjust color as needed */
+     flex: 1; /* Allow text to take available space */
+     padding-right: 20px; /* Add some space between text and QR code */
+ }
+ 
+ /* Styling the QR Code */
+ .qr-code {
+     width: 200px; /* Adjust size */
+     height: auto;
+     border-radius: 10px; /* Optional: Slight rounded corners */
+ }
 /** end contact **/
 
 
