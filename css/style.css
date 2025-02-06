@@ -729,7 +729,7 @@ ul.conta_top li a {
 }
 /* Full-screen container */
 .container3 {
-     background-color: rgba(194, 176, 143, 0.7);
+     background-color: #fff;
      max-width: 1000px;
      display: flex; /* Use flexbox */
      flex-direction: row; /* Arrange items in a row */
@@ -742,9 +742,9 @@ ul.conta_top li a {
  }
  
  /* Styling the text */
- .text {
+ .text3 {
      font-size: 20px;
-     color: #ffffff; /* Adjust color as needed */
+     color: #6d543c; /* Adjust color as needed */
      flex: 1; /* Allow text to take available space */
      padding-right: 20px; /* Add some space between text and QR code */
  }
