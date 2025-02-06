@@ -335,12 +335,6 @@ figure {
      padding: 30px;
      max-width: 90%;
  }
- .container1 {
-     background-color:#fff;
-     /* background-color: rgba(194, 176, 143, 1); /* Transparent Beige */
-     border-radius: 20px; /* Rounded Corners */
-     padding-left: 50px;
- }
  
  .about_img figure img {
      border-radius: 10px; /* Slightly round the image corners */
@@ -1019,3 +1013,20 @@ ul.conta li a:hover {
 .inner_page .honey_bg {
      padding-top: 90px;
 }
+
+/*colors*/
+.container1 {
+     background-color:#fff;
+     /* background-color: rgba(194, 176, 143, 1); /* Transparent Beige */
+     border-radius: 20px; /* Rounded Corners */
+     padding-left: 50px;
+ }
+
+.text-noir {
+     color: #6d543c !important; /* Texte en noir */
+ }
+ 
+ .text-noir p,h2 {
+     color: #6d543c !important; /* Lien en noir */
+     text-decoration: none; /* Enlever le soulignement du lien si nécessaire */
+ }
