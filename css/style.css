@@ -336,7 +336,8 @@ figure {
      max-width: 90%;
  }
  .container1 {
-     background-color: rgba(194, 176, 143, 1); /* Transparent Beige */
+     background-color:#fff;
+     /* background-color: rgba(194, 176, 143, 1); /* Transparent Beige */
      border-radius: 20px; /* Rounded Corners */
      padding-left: 50px;
  }
